@@ -1,8 +1,8 @@
 import { motion, useAnimation } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import RandomQuote from "../components/RandomQuote";
+import RandomQuote from "./RandomQuote";
 import PropTypes from "prop-types";
-import MouseTrail from "../components/Trail";
+import MouseTrail from "./Trail";
 
 const Welcome = () => {
   const [isIntersecting, setIsIntersecting] = useState(false);
@@ -53,26 +53,26 @@ const Welcome = () => {
       </div>
       <MouseTrail
         images={[
-          "../../public/trails/img1.jpg",
-          "../../public/trails/img2.jpg",
-          "../../public/trails/img3.jpg",
-          "../../public/trails/img4.jpg",
-          "../../public/trails/img5.jpg",
-          "../../public/trails/img6.jpg",
-          "../../public/trails/img7.jpg",
-          "../../public/trails/img8.jpg",
-          "../../public/trails/img9.jpg",
-          "../../public/trails/img10.jpg",
-          "../../public/trails/img11.jpg",
-          "../../public/trails/img12.jpg",
-          "../../public/trails/img13.jpg",
-          "../../public/trails/img14.jpg",
-          "../../public/trails/img15.jpg",
-          "../../public/trails/img16.jpg",
-          "../../public/trails/img17.jpg",
-          "../../public/trails/img18.jpg",
-          "../../public/trails/img19.jpg",
-          "../../public/trails/img20.jpg",
+          "../../public/",
+          "../../public/img2.jpg",
+          "../../public/img3.jpg",
+          "../../public/img4.jpg",
+          "../../public/img5.jpg",
+          "../../public/img6.jpg",
+          "../../public/img7.jpg",
+          "../../public/img8.jpg",
+          "../../public/img9.jpg",
+          "../../public/img10.jpg",
+          "../../public/img11.jpg",
+          "../../public/img12.jpg",
+          "../../public/img13.jpg",
+          "../../public/img14.jpg",
+          "../../public/img15.jpg",
+          "../../public/img16.jpg",
+          "../../public/img17.jpg",
+          "../../public/img18.jpg",
+          "../../public/img19.jpg",
+          "../../public/img20.jpg",
         ]}
         duration={1000}
         active={isIntersecting}

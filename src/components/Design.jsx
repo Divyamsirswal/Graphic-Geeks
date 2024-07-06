@@ -32,7 +32,7 @@ const teamMembers1 = [
   {
     name: "Sameer Singhal",
     position: "Member",
-    image: "/public/Team/sameer.jpg",
+    image: "/public/sameer.jpg",
     linkedin:
       "https://www.linkedin.com/in/sameer-singhal-452a17214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     gmail: "mailto:sameersinghal907@gmail.com",

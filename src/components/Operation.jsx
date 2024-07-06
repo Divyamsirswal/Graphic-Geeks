@@ -32,14 +32,14 @@ const teamMembers1 = [
   {
     name: "Khushali Gupta",
     position: "Member",
-    image: "/public/Team/khusali.jpg",
+    image: "/public/khusali.jpg",
     linkedin: "#",
     gmail: "mailto:khushaligpt95@gmail.com",
   },
   {
     name: "Ela Shahi",
     position: "Member",
-    image: "/public/Team/ela.jpg",
+    image: "/public/ela.jpg",
     linkedin:
       "https://www.linkedin.com/in/ela-shahi-999465286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     gmail: "mailto:elashahi2007@gmail.com",
@@ -47,14 +47,14 @@ const teamMembers1 = [
   {
     name: "Anmeet Kaur",
     position: "Member",
-    image: "/public/Team/anmeet.jpg",
+    image: "/public/anmeet.jpg",
     linkedin: "https://www.linkedin.com/in/anmeet-kaur-178779262/",
     gmail: "mailto:anmeet7917@gmail.com",
   },
   {
     name: "Pranav Joshi",
     position: "Member",
-    image: "/public/Team/pranav.jpg",
+    image: "/public/pranav.jpg",
     linkedin: "#",
     gmail: "#",
   },

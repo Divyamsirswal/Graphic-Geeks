@@ -32,7 +32,7 @@ const teamMembers1 = [
   {
     name: "Divyansh Devgan",
     position: "Member",
-    image: "/public/Team/devansh.jpg",
+    image: "/public/devansh.jpg",
     linkedin:
       "https://www.linkedin.com/in/divyansh-devgan-1111a0313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     gmail: "mailto:divyansh.devgan4@gmail.com",
@@ -40,7 +40,7 @@ const teamMembers1 = [
   {
     name: "Ansh Vadhera",
     position: "Member",
-    image: "/public/Team/ansh.jpeg",
+    image: "/public/ansh.jpeg",
     linkedin: "#",
     gmail: "#",
   },

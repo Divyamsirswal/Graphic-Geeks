@@ -13,27 +13,17 @@
 
 @font-face {
   font-family: 'nerd';
-  src: url('../public/fonts/CaskaydiaCoveNerdFont-Regular.ttf');
+  src: url('../public/CaskaydiaCoveNerdFont-Regular.ttf');
 }
 
 @font-face {
   font-family: 'brush';
-  src: url('../public/fonts/brush.otf');
-}
-
-@font-face {
-  font-family: 'mulreg';
-  src: url('../public/fonts/MullerNextExpandedTrial-Regular.ttf');
+  src: url('../public/brush.otf');
 }
 
 @font-face {
   font-family: 'pixel';
-  src: url('../public/fonts/pixel.otf');
-}
-
-@font-face {
-  font-family: 'mulreg-bold';
-  src: url('../public/fonts/MullerNextExpandedTrial-ExtraBold.ttf');
+  src: url('../public/pixel.otf');
 }
 
 .custom-cursor {
