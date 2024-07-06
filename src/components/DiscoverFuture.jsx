@@ -22,7 +22,7 @@ const DiscoverFuture = () => {
     <div className="future">
       <img
         src={"/space.jpg"}
-        className="absolute discover z-[-1] w-full h-[120vh] opacity-40 size-fit object-cover object-right-top invert"
+        className="absolute discover z-[-1] w-full h-screeen opacity-40 size-fit object-cover object-right-top invert"
         alt="Space Background"
       />
       <div className="w-full h-screen flex flex-col">
