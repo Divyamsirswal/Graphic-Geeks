@@ -2,6 +2,7 @@ import Cursor from "../components/cursor";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import "../index.scss";
 
 const menuTransition = {
   initial: {
@@ -67,7 +68,7 @@ const Menu = () => {
         exit="exit"
       >
         <motion.h1
-          className="select-none w-fit h-fit text-8xl absolute text-white m-20 left-0 top-10  font-pixel"
+          className="select-none eventy w-fit h-fit text-8xl absolute text-white m-20 left-0 top-10  font-pixel"
           whileHover="hover"
           onHoverStart={handleHoverStart}
           variants={menuItemVariants}

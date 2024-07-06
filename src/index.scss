@@ -182,3 +182,15 @@
     padding-left: 0;
   }
 }
+
+@media (max-width:450px) {
+    .custom-cursor{
+      display: none;
+    }
+}
+
+@media (max-width:450px){
+  .eventy{
+    font-size: 14vw;
+  }
+}
