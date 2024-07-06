@@ -1,0 +1,48 @@
+{
+  "name": "gg",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@react-three/drei": "^9.108.1",
+    "@react-three/fiber": "^8.16.8",
+    "emailjs-com": "^3.2.0",
+    "FontLoader": "^0.0.2",
+    "framer-motion": "^11.2.12",
+    "glsl": "^0.0.1",
+    "lodash.debounce": "^4.0.8",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-burger-menu": "^3.0.9",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.24.0",
+    "react-transition-group": "^4.4.5",
+    "sass": "^1.77.6",
+    "three": "^0.166.0",
+    "three-stdlib": "^2.30.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "babel-plugin-glsl": "^1.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "glslify": "^7.1.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.1"
+  }
+}
