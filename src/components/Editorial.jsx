@@ -32,7 +32,7 @@ const teamMembers1 = [
   {
     name: "Diya Istwal",
     position: "Member",
-    image: "/public/diya.jpeg",
+    image: "/diya.jpeg",
     linkedin:
       "https://www.linkedin.com/in/diya-istwal-79a02a264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     gmail: "mailto:diya.istwal@gmail.com",

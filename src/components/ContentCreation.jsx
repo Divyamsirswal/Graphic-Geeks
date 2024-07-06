@@ -32,7 +32,7 @@ const teamMembers1 = [
   {
     name: "Garvita Arora",
     position: "Member",
-    image: "/public/garvita.jpg",
+    image: "/garvita.jpg",
     linkedin:
       "https://www.linkedin.com/in/garvita-arora-56706a2aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     gmail: "mailto:garvitaarora777@gmail.com",

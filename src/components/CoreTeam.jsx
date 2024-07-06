@@ -67,23 +67,23 @@ const teamMembers1 = [
   {
     name: "Aniruddh Singh",
     position: "Vice President",
-    image: "/public/anirudh.jpg",
-    linkedin: "https://www.linkedin.com/in/divyam-sirswal/",
-    gmail: "mailto:jai.yadav@gmail.com",
+    image: "/anirudh.jpg",
+    linkedin: "#",
+    gmail: "mailto:saniruddh123@gmail.com",
   },
   {
     name: "Shakshat Jain",
     position: "President",
-    image: "/public/shakshatjain.jpg",
-    linkedin: "https://www.linkedin.com/in/divyam-sirswal/",
-    gmail: "mailto:jai.yadav@gmail.com",
+    image: "/shakshatjain.jpg",
+    linkedin: "#",
+    gmail: "mailto:shakshatjain4040@gmail.com",
   },
   {
     name: "Shauryman Singh Taragi",
     position: "Vice President",
-    image: "/public/shauraman.jpg",
-    linkedin: "https://www.linkedin.com/in/divyam-sirswal/",
-    gmail: "mailto:jai.yadav@gmail.com",
+    image: "/shauraman.jpg",
+    linkedin: "#",
+    gmail: "mailto:saniruddh123@gmail.com",
   },
 ];
 

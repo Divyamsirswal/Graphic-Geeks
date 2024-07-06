@@ -18,19 +18,19 @@ const Coordinators = () => {
           index={0}
           title="Dr Teekam Singh"
           about="(Associate Prof)"
-          texture="/public/teekamsir.jpg"
+          texture="/teekamsir.jpg"
         />
         <Card
           index={1}
           title="Dr Anupum Singh"
           about="(Associate Prof)"
-          texture="/public/anupumsir.jpg"
+          texture="/anupumsir.jpg"
         />
         <Card
           index={2}
           title="Mr Sidhant Thapliyal"
           about="(Assistant Prof)"
-          texture="/public/sidanthsir.jpg"
+          texture="/sidanthsir.jpg"
         />
       </div>
     </div>

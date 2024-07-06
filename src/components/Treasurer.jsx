@@ -32,7 +32,7 @@ const teamMembers1 = [
   {
     name: "Amulya Sharma",
     position: "Member",
-    image: "/public/amulya.jpg",
+    image: "/amulya.jpg",
     linkedin: "#",
     gmail: "#",
   },
