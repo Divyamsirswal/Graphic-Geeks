@@ -9,6 +9,12 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "builds": [
+    {
+      "src": "src/index.html",
+      "use": "@vercel/static"
+    }
+  ],
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
