@@ -21,7 +21,7 @@ const DiscoverFuture = () => {
   return (
     <div className="future">
       <img
-        src={"../../public/space.jpg"}
+        src={"/space.jpg"}
         className="absolute discover z-[-1] w-full h-[120vh] opacity-40 size-fit object-cover object-right-top invert"
         alt="Space Background"
       />
