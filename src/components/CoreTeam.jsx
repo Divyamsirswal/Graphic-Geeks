@@ -5,23 +5,23 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const CoreTeam = () => {
   return (
-    <div className="core-team-container w-full h-auto flex flex-col items-center bg-black px-4 py-10 sm:px-10 sm:py-20 lg:p-40">
+    <div className="core-team-container w-full h-auto flex flex-col items-center bg-black px-4 py-10 sm:px-10 sm:py-10 lg:p-40">
       <motion.div
         className="h-max w-full flex items-center justify-center flex-col"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-sky-500 font-pixel p-4 sm:p-10 text-center">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-sky-500 font-pixel p-4 sm:p-14 text-center">
           Meet our Team
         </h1>
       </motion.div>
       <div className="w-full h-full">
-        <div className="presi w-full h-full flex flex-col sm:flex-row items-center justify-evenly gap-10 sm:gap-0">
+        <div className="presi w-full h-full flex flex-col sm:flex-row items-center justify-evenly gap-10 sm:gap-10">
           {teamMembers1.map((member, index) => (
             <motion.div
               key={member.name}
-              className="team-member flex flex-col gap-1 items-center justify-center text-sm font-nerd p-2"
+              className="team-member flex flex-col gap-1 items-center justify-center text-sm font-nerd p-10"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: index * 0.2, duration: 0.5 }}
@@ -65,18 +65,18 @@ const CoreTeam = () => {
 
 const teamMembers1 = [
   {
-    name: "Aniruddh Singh",
-    position: "Vice President",
-    image: "/anirudh.jpg",
-    linkedin: "#",
-    gmail: "mailto:saniruddh123@gmail.com",
-  },
-  {
     name: "Shakshat Jain",
     position: "President",
     image: "/shakshatjain.jpg",
     linkedin: "#",
     gmail: "mailto:shakshatjain4040@gmail.com",
+  },
+  {
+    name: "Aniruddh Singh",
+    position: "Vice President",
+    image: "/anirudh.jpg",
+    linkedin: "#",
+    gmail: "mailto:saniruddh123@gmail.com",
   },
   {
     name: "Shauryman Singh Taragi",
