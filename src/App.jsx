@@ -42,7 +42,7 @@ function App() {
         <Route path="/contactus" element={<ContactusPage />} />
       </Routes>
     </AnimatePresence>
-    </BrowserRouter>s
+    </BrowserRouter>
   );
 }
 
