@@ -21,6 +21,7 @@ function App() {
   const location = useLocation();
 
   return (
+    <BrowserRouter>
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<HomePage />} />
@@ -41,6 +42,7 @@ function App() {
         <Route path="/contactus" element={<ContactusPage />} />
       </Routes>
     </AnimatePresence>
+    </BrowserRouter>s
   );
 }
 
