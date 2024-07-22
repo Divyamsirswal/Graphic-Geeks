@@ -22,9 +22,7 @@ function App() {
 
   return (
     <AnimatePresence mode="wait">
-      <BrowserRouter>
       <Routes location={location} key={location.pathname}>
-        
         <Route path="/" element={<HomePage />} />
         <Route path="/events" element={<Events />} />
         <Route path="/events/upcoming" element={<Upcoming />} />
@@ -42,7 +40,6 @@ function App() {
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/contactus" element={<ContactusPage />} />
       </Routes>
-        </BrowserRouter>
     </AnimatePresence>
   );
 }
